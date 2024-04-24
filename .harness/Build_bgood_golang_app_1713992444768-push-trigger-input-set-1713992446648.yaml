@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_bgood_golang_app_1713992444768-push-trigger-input-set
+  identifier: Build_bgood_golang_app_1713992444768pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_bgood_golang_app_1713992444768
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
